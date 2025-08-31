@@ -73,7 +73,7 @@ while True:
             w, h = x2 - x1, y2 - y1
             area = w * h
 
-            # Skip overly large detections
+           
             if area > 0.6 * width * height:
                 continue
 
